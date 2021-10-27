@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
+
+/*navbar styling*/
+  #navbar{
+    margin-top: -27px;
+    margin-left: -8px;
+  }
+  #navbar_list{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgb(54, 54, 54);
+    width: 98.3%;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 14pt;
+    
+  }
+  .navbar_item{
+    margin-right: 10px;
+    display: block;
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  a.navbar_item{
+    text-decoration: none;
+  }
+  a.navbar_item:active{
+    color:cadetblue;
+  }
+  a.navbar_item:link{
+    color:darkcyan;
+  }
+  a.navbar_item:visited{
+    color:cyan;
+  }
+  a.navbar_item:hover{
+    color:pink;
+    text-shadow: 2px 2px grey;
+  }
+
+/*Home page CSS*/
+
+  /*styling for the team logo in the nabigaion bar*/
+  .logo_nav{
+    float: left;
+    height: 50px;
+    width: 75px;
+    padding-top: 10px;
+    margin-left: -35px;
+    margin-right: -20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+@media (max-width:600px){
+  #navbar_list{
+    display: inline-block;
+    text-align: center;
+  }
+  body{
+    overflow: scroll;
+  }
+}
+#index_body{
+  overflow: hidden;
+}
